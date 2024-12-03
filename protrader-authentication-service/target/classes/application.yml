@@ -1,0 +1,38 @@
+spring:
+  profiles:
+    active: default # Varsay?lan profil. Prod ortam?nda bunu de?i?tirebilirsiniz.
+
+  datasource:
+    url: jdbc:postgresql://localhost:/authentication_db
+    username: 
+    password: 
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  jwt:
+    secret-key: 
+
+---
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:/kaya
+    username: postgres
+    password: 
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  web:
+    cors:
+      allowed-origins: "*"
+      allowed-methods: "*"
+      allowed-headers: "*"
+      exposed-headers: "*"
+      allow-credentials: false

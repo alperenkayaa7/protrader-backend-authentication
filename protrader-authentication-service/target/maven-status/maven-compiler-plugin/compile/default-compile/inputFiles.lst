@@ -1,0 +1,10 @@
+/Users/kaya/protraderbackend/protrader-authentication-service/src/main/java/com/protrader/authentication/config/WebConfig.java
+/Users/kaya/protraderbackend/protrader-authentication-service/src/main/java/com/protrader/authentication/ProtraderAuthenticationServiceApplication.java
+/Users/kaya/protraderbackend/protrader-authentication-service/src/main/java/com/protrader/authentication/repository/UserRepository.java
+/Users/kaya/protraderbackend/protrader-authentication-service/src/main/java/com/protrader/authentication/config/SecurityConfig.java
+/Users/kaya/protraderbackend/protrader-authentication-service/src/main/java/com/protrader/authentication/controller/AuthenticationController.java
+/Users/kaya/protraderbackend/protrader-authentication-service/src/main/java/com/protrader/authentication/entity/UserEntity.java
+/Users/kaya/protraderbackend/protrader-authentication-service/src/main/java/com/protrader/authentication/config/AppConfig.java
+/Users/kaya/protraderbackend/protrader-authentication-service/src/main/java/com/protrader/authentication/dto/UserDto.java
+/Users/kaya/protraderbackend/protrader-authentication-service/src/main/java/com/protrader/authentication/util/JwtUtil.java
+/Users/kaya/protraderbackend/protrader-authentication-service/src/main/java/com/protrader/authentication/dto/LoginRequest.java
